@@ -17,13 +17,15 @@ Create custom playlists using multiple methods:
 - **Genre-Filtered**: Filter by specific music genres
 
 ###  Data Visualization
-Explore your music collection through interactive visualizations:
-- **Cluster Analysis**: 
-        - K-Means clustering with robust scaling preprocessing (chosen to handle outliers in music data)
-        - PCA projection of song clusters
-        - Fixed optimal k=5, obtaining a `silhouette score` of `0.914`
+Explore the music collection through interactive visualizations:
+- **Cluster Analysis**:
+  - K-Means clustering with robust scaling preprocessing (chosen to handle outliers in music data)
+  - PCA projection of song clusters
+  - Fixed optimal k=5, obtaining a `silhouette score` of `0.914`
+
 - **Feature Distributions**: Histograms of audio characteristics
 - **Correlation Matrix**: Heatmap showing relationships between different audio features
+
 
 <img src="demos/demo2.png" alt="Demo" width="100%"/>
 
@@ -36,7 +38,7 @@ Advanced search and filtering capabilities:
 - Search by song name or artist
 - Filter by mood category
 - Filter by music genre
-- Interactive data table with key song information
+- Data table with key song information
 
 ## Key Algorithms
 
@@ -52,12 +54,16 @@ Advanced search and filtering capabilities:
    git clone https://github.com/adrianageamanu/Music-Recommendation-System.git
    cd Music-Recommendation-System
    ```
-### 2. Set up a virtual environment:
+### 2. Extract the data files:
+   ```bash
+   unzip data.zip
+   ```
+### 3. Set up a virtual environment:
    ```bash
    python3 -m venv venv  # Try 'python' if 'python3' is not available
    source venv/bin/activate
    ```
-### 3. Install Python dependencies:
+### 4. Install Python dependencies:
    ```bash
    pip install -r requirements.txt
    ```
