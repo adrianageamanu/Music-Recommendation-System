@@ -20,7 +20,6 @@ st.set_page_config(
 # Cache the data loading and preprocessing
 @st.cache_data
 def load_and_process_data():
-    """Load and preprocess all music data"""
     songs = pd.read_csv('songs.csv', sep='\t')
     artists = pd.read_csv('artists.csv', sep='\t')
     features = pd.read_csv('acoustic_features.csv', sep='\t')
