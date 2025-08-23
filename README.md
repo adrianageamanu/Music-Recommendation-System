@@ -7,7 +7,7 @@ A machine learning based music discovery platform that combines audio feature an
 ###  Song Recommendations
 Find songs similar to an input track using a K-Nearest Neighbors model with cosine similarity that analyzes both audio features and lyrical content.
 
-<img src="demos/demo1.png" alt="Demo" width="60%"/>
+<img src="demos/demo1.png" alt="Demo" width="100%"/>
 
 ###  Playlist Generator
 Create custom playlists using multiple methods:
@@ -25,7 +25,7 @@ Explore your music collection through interactive visualizations:
 - **Feature Distributions**: Histograms of audio characteristics
 - **Correlation Matrix**: Heatmap showing relationships between different audio features
 
-<img src="demos/demo2.png" alt="Demo" width="70%"/>
+<img src="demos/demo2.png" alt="Demo" width="100%"/>
 
 
 - **Mood Analysis**: Pie chart distribution of detected mood categories
