@@ -36,7 +36,7 @@ def load_and_process_data():
                 return next(iter(artist_dict.values()))
         except:
 
-            # Return None if string cannot be parsed as a dictionary
+            # Return None if string can't be parsed as a dictionary
             return None
 
     songs['artist'] = songs['artists'].apply(extract_artist_name)
